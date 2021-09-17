@@ -55,11 +55,12 @@ Machines within the network can only be accessed by _ssh_.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses         |
-|----------|---------------------|------------------------------|
-| Jump Box | Yes                 | 10.1.0.5 10.1.0.9 10.2.0.4   |
-|          |                     |                              |
-|          |                     |                              |
+| Name     | Publicly Accessible | Allowed IP Addresses |
+|----------|---------------------|--------------------- |
+| Jump Box | Yes                 | 20.94.229.3          |
+| Web-1    | No                  | 10.1.0.5             |
+| Web-2    | No                  | 10.1.0.9             |
+| ELKVM    | No                  | 10.2.0.4             |
 
 ### Elk Configuration
 
