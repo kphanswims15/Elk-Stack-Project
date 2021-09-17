@@ -8,8 +8,9 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _YAML_ file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
-  - [Fliebeat Playbook](filebeat-playbook.yml)
+  - [Install ELK](install-elk.yml)
+  - [Filebeat Playbook](filebeat-playbook.yml)
+  - [Metricbeat Playbook](metricbeat-playbook.yml)
 
 This document contains the following details:
 - Description of the Topologu
@@ -71,7 +72,7 @@ The playbook implements the following tasks:
 - Install docker.io
 - Install pip3
 - Install Docker python module
-- Adds more memory 
+- Adds more virtual memory 
 - Downloads and launchs a docker elk container
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
@@ -84,10 +85,12 @@ This ELK server is configured to monitor the following machines:
 - Web-2: 10.1.0.9
 
 We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_
+- Filebeats
+- Metricbeats
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+- Filebeats collects and sends log data which can provide access information
+- Metricbeats collects and sends metric data of what is running on a server which can provide information on memory and usage.
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
