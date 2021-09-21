@@ -14,11 +14,11 @@ Instructions
     - Of the traffic that's coming from that country, what time of day had the highest amount of activity?
         - 12 pm to 1 pm
     - List all the types of downloaded files that have been identified for the last 7 days, along with a short description of each file type (use Google if you aren't sure about a particular file type).
-        - gz - 
-        - css
-        - zip
-        - deb
-        - rpm
+        - gz - compressed archives that are created by the standard GNU zip
+        - css - fields that describe how HTML elemenets are displayed on the screen, paper, etc.
+        - zip - compressed file(s) in one location
+        - deb - contains the executable files, libraries, and documentation associated with a particular suite of program or set of related programs
+        - rpm - a Red Hat Package Manager file that's used to store installation packages on Linux operating systems
 
 3. Now that you have a feel for the data, Let's dive a bit deeper. Look at the chart that shows Unique Visitors Vs. Average Bytes.
     - Locate the time frame in the last 7 days with the most amount of bytes (activity).
