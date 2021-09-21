@@ -28,19 +28,35 @@ Instructions
 
 4. Filter the data by this event.
     - What is the timestamp for this event?
+        - Sep 16, 2021 @ 15:00:00.000 → Sep 16, 2021 @ 18:00:00.000. Time stamps are 15:25 and 15:55
     - What kind of file was downloaded?
+        - a gz and a rpm file were downloaded
     - From what country did this activity originate?
+        - China and Nigeria
     - What HTTP response codes were encountered by this visitor?
+        - 200
 
 5. Switch to the Kibana Discover page to see more details about this activity.
     - What is the source IP address of this activity?
+        - 1.145.31.121
     - What are the geo coordinates of this activity?
+        - {
+            "lat": 28.28980556,
+            "lon": -81.43708333
+          }   
     - What OS was the source machine running?
+        - win 8
     - What is the full URL that was accessed?
+        - https://artifacts.elastic.co/downloads/kibana/kibana-6.3.2-linux-x86_64.tar.gz
     - From what website did the visitor's traffic originate?
+        - http://www.elastic-elastic-elastic.com/success/aleksandr-serebrov
 
 6. Finish your investigation with a short overview of your insights.
     - What do you think the user was doing?
+        - This looks like a user downloading a package from the website being monitored.
     - Was the file they downloaded malicious? If not, what is the file used for?
+        - It depends. Files are not usually harmful, but it depends on where its downloaded. 
     - Is there anything that seems suspicious about this activity?
+        - No, it looks like it's downloading the file from a safe website
     - Is any of the traffic you inspected potentially outside of compliance guidlines?
+        - No
