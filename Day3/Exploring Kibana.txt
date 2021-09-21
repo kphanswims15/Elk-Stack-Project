@@ -22,7 +22,9 @@ Instructions
 
 3. Now that you have a feel for the data, Let's dive a bit deeper. Look at the chart that shows Unique Visitors Vs. Average Bytes.
     - Locate the time frame in the last 7 days with the most amount of bytes (activity).
+        - The most amount of bytes is 13,204.5 on 2021-09-16
     - In your own words, is there anything that seems potentially strange about this activity?
+        - There is something strange about this activity because only 2 people using that many bytes.
 
 4. Filter the data by this event.
     - What is the timestamp for this event?
